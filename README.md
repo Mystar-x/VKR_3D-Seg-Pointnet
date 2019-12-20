@@ -1,9 +1,12 @@
 * **December plan:**
-1. Complete the study of the thesis,
+1. Complete the study of the thesis；
+- Paper: [PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation](https://arxiv.org/abs/1612.00593)
+- [Project page](http://stanford.edu/~rqi/pointnet/)
+- [Author's implementation](https://github.com/charlesq34/pointnet)
 2. Complete the tasks on HNP; 
 
     Completed and displayed on the wiki page：
-    https://github.com/Yansz/BKP_3D-Seg-Pointnet/wiki
+    [MyWiki page](https://github.com/Yansz/BKP_3D-Seg-Pointnet/wiki)
 
 3. Complete a small segmentation case.
 
