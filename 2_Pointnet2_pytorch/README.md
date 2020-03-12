@@ -2,15 +2,6 @@
 
 This repo is implementation for [PointNet](http://openaccess.thecvf.com/content_cvpr_2017/papers/Qi_PointNet_Deep_Learning_CVPR_2017_paper.pdf) and [PointNet++](http://papers.nips.cc/paper/7095-pointnet-deep-hierarchical-feature-learning-on-point-sets-in-a-metric-space.pdf) in pytorch.
 
-## Update
-**2019/12/16:**
-
-(1) Fixed some errors in previous codes and added data augmentation tricks. 
-
-(2) Added testing codes, including segmentation, and semantic segmentation with visualization. 
-
-(3) Organized all models into `./models` files for easy using.
-
 ## Part Segmentation
 ### Data Preparation
 Download alignment **ShapeNet** [here](https://shapenet.cs.stanford.edu/media/shapenetcore_partanno_segmentation_benchmark_v0_normal.zip)  and save in `data/shapenetcore_partanno_segmentation_benchmark_v0_normal/`.
@@ -52,9 +43,9 @@ Visualization results will save in `log/sem_seg/pointnet2_sem_seg/visual/` and y
 |Model  | Class avg IoU |
 |--|--|
 | PointNet (Official) | 41.1|
-| PointNet (Pytorch) | 48.9|
+| PointNet (Pytorch) | ?|
 | PointNet2 (Official) |N/A |
-| PointNet2_ssg (Pytorch) | **53.2**|
+| PointNet2_ssg (Pytorch) | ?|
 
 ## Visualization
 ### Using show3d_balls.py
@@ -65,7 +56,7 @@ bash build.sh
 ## run one example 
 python show3d_balls.py
 ```
-![](/Pointnet2_pytorch/visualizer/pic.png)
+![](/2_Pointnet2_pytorch/visualizer/pic.png)
 ### Using MeshLab
 ![](/Pointnet2_pytorch/visualizer/pic2.png)
 
