@@ -1,6 +1,7 @@
 # PointNet
 PyTorch implementation of "PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation" https://arxiv.org/abs/1612.00593
 
+First I used colab to implement the classification task based on pointnetde, because the global features after max pooling need to be used in the next segmentation task.
 ## Classification dataset
 This code implements object classification on [ModelNet10](https://modelnet.cs.princeton.edu) dataset.
 
@@ -18,9 +19,10 @@ You can download the dataset by following [this link](https://drive.google.com/o
 
 
 ## Part segmentation dataset
+I choose point cloud airplanes from Shapenet dataset as one test example.
 The dataset includes 2609 point clouds representing different airplanes, where every point has its coordinates in 3D space and a label of an airplane’s part the point belongs to. As all images have different number of points and PyTorch library functions require images of the same size to form a PyTorch tensor, we sample uniformly 2000 points from every point cloud.
 
-You can download the dataset by following [this link](https://drive.google.com/drive/u/1/folders/1Z5XA4uJpA86ky0qV1AVgA_G1_ETkq9En)
+Use one dataset by following shared dataset in goodle drive [this link](https://drive.google.com/drive/u/1/folders/1Z5XA4uJpA86ky0qV1AVgA_G1_ETkq9En)
 
 ## Part segmentation performance
 The resulting accuracy on the validation dataset is 88%. In the original paper part segmentation results corresponding to category of objects (airplanes) is 83.4%.
