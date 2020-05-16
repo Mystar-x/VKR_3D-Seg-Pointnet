@@ -2,6 +2,13 @@
 
 The network structure is as follows:
 
-![](/Images/sspoinnet.png)
+![](/Images/sspointnet.png)
 
-![](/Images/msspoinnet.png)
+![](/Images/msspointnet.png)
+
+## Result:
+
+![prediction example](/02.PointNet_pytorch/img/area5-cr1.png)
+
+![prediction example](/02.PointNet_pytorch/img/area5-lobby1.png)
+

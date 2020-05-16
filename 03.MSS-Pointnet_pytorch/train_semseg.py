@@ -1,6 +1,6 @@
 """
 Author: YAN
-Date: April 2020
+Date: 03/2020
 """
 import argparse
 import os
@@ -19,7 +19,6 @@ import numpy as np
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 ROOT_DIR = BASE_DIR
 sys.path.append(os.path.join(ROOT_DIR, 'models'))
-
 
 classes = ['ceiling','floor','wall','beam','column','window','door','table','chair','sofa','bookcase','board','clutter']
 class2label = {cls: i for i,cls in enumerate(classes)}
