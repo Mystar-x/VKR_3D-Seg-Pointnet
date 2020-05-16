@@ -1,7 +1,5 @@
 # PointNet
-PyTorch implementation of "PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation" https://arxiv.org/abs/1612.00593
-
-First I used colab to implement the classification task based on pointnetde, because the global features after max pooling need to be used in the next segmentation task.
+Firstly, I used colab to implement the classification task based on pointnetde, because the global features after max pooling need to be used in the next segmentation task.
 ## Classification dataset
 This code implements object classification on [ModelNet10](https://modelnet.cs.princeton.edu) dataset.
 

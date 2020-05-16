@@ -31,7 +31,7 @@ for i,cat in enumerate(seg_classes.keys()):
 
 def parse_args():
     parser = argparse.ArgumentParser('Model')
-    parser.add_argument('--model', type=str, default='pointnet_sem_seg', help='model name [default: pointnet_sem_seg]')
+    parser.add_argument('--model', type=str, default='PointNet_sem_seg', help='model name [default: pointnet_sem_seg]')
     parser.add_argument('--batch_size', type=int, default=12, help='Batch Size during training [default: 12]')
     parser.add_argument('--epoch',  default=1024, type=int, help='Epoch to run [default: 1024]')
     parser.add_argument('--learning_rate', default=0.001, type=float, help='Initial learning rate [default: 0.001]')
