@@ -23,3 +23,29 @@
 * **March：**
 1. Я начну писать теоретические части первых нескольких глав моей дипломной работы;
 2. Я найду доступные ресурсы графических процессоров для обучения и тестирования наборов данных больших облачных точек сцены.
+
+- **April**
+
+1. Завершил теоретическую часть первых двух глав статьи, начал внедрять PointNet в PyTorch и продолжал использовать Google Cloud Platform для обучения и тестирования.
+2. Разработка модели оптимизации с учетом PointNet—MSS-PointNet.
+3. Журналы тренировок сохраняются в [Google Cloud Disk](https://drive.google.com/drive/folders/1fc1Tg1d8nW36dGyH3KU6LJpMt97vS08d?usp=sharing)
+
+* **May**
+
+1. Кодирование реализует MSS-PointNet и проводит эксперимент управления, проводит тест на точность.
+2. Продолжать улучшать остальную часть BKP, завершен бизнес-план для этого проекта.
+3. Подготовить дипломные защитные слайды и другие сопутствующие материалы.
+
+
+
+## Results of pytorch implementation
+
+### Test in Area_5
+
+![tensorboard area5](/02.PointNet_pytorch/img/all.png)
+
+## Meshlab visualization(obj files)
+
+![prediction example](/02.PointNet_pytorch/img/area5-cr1.png)
+
+![prediction example](/02.PointNet_pytorch/img/area5-lobby1.png)
