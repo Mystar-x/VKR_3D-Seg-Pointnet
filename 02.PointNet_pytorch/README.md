@@ -1,12 +1,12 @@
-# pointnet_pytorch
+# PointNet_pytorch
 This is the pytorch implementation of PointNet on semantic segmentation task. The project achieves the same result as official tensorflow version on S3DIS dataset. We release the code for related researches using pytorch.
 
 ## Environment
-* Ubuntu 16.04
+* Ubuntu 18.04
 
-* python3.5
+* python3.6
 
-* pytorch0.3.1
+* pytorch1.3.1
 
 * <a href="https://github.com/lanpa/tensorboardX" target="_blank">tensorboardX</a>
 
