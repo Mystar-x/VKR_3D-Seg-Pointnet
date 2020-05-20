@@ -48,4 +48,4 @@
 
 ![prediction example](/02.PointNet_pytorch/img/area5-cr1.png)
 
-![prediction example](/02.PointNet_pytorch/img/area5-lobby1.png)
+![prediction example](/02.PointNet_pytorch/img/A5L1.png) 
